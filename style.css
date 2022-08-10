@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'sans-serif';
+}
+a {
+    text-decoration: none;
+}
+header {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;  
+}
+header h1 a { /*quotes to scrapes*/ 
+    font-size: 3.5rem;
+    color: #4582EC;
+}
+header > a { /*login*/
+    font-size: 1.5rem;
+    color: #4582EC;
+}
+
+/*************************************************************************************/
+main .cards-container {
+    display: flex;
+    justify-content: center;
+}
+main .cards-container .card {
+    border: 1px solid black;
+    width: 95%;
+}
+main .cards-container .card h2 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    font-style: italic;
+    color: #333333;
+    font-weight: 500;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main .tags-container {
+    margin-top: 100px;
+}
+main .tags-container h2 {
+    color: #333333;
+    font-size: 3.5rem;
+    text-align: end;
+}
+main .tags-container ul { /*la lista completa*/
+    text-align: end;
+    line-height: 40px;
+    margin-right: 5px;
+}
+main .tags-container ul li a { /*cada elemento de la lista*/
+    color: white;
+    background-color: #7CA3E6;
+    font-size: 2.3rem;
+    border-radius: 5px;
+    padding: 3px;
+}
+footer {
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.711);
+    line-height: 40px;
+}
+footer p {
+    font-size: 1.7rem;
+}
+footer span {
+    background: url(./img/red-heart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+footer p:nth-child(1) { /*quotes by...*/
+    margin-left: 10px;
+    color: #b3b3b3;
+}
+footer p:nth-child(2) { /*Made with...*/
+    text-align: center;
+    color: #333333;
+}
+footer a {
+    color:#4582EC
+}
